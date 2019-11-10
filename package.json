@@ -1,6 +1,6 @@
 {
-  "name": "babel-plugin-inline-react-svg",
-  "version": "1.1.0",
+  "name": "babel-plugin-inline-react-svg-forked",
+  "version": "1.1.2",
   "description": "A babel plugin that optimizes and inlines SVGs for your react components.",
   "main": "lib/index.js",
   "scripts": {
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kesne/babel-plugin-inline-react-svg.git"
+    "url": "git+https://github.com/isi-gach/babel-plugin-inline-react-svg.git"
   },
   "keywords": [
     "babel",
@@ -26,9 +26,9 @@
   "author": "Jordan Gensler <jordan.gensler@airbnb.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/kesne/babel-plugin-inline-react-svg/issues"
+    "url": "https://github.com/isi-gach/babel-plugin-inline-react-svg/issues"
   },
-  "homepage": "https://github.com/kesne/babel-plugin-inline-react-svg#readme",
+  "homepage": "https://github.com/isi-gach/babel-plugin-inline-react-svg#readme",
   "devDependencies": {
     "@babel/cli": "^7.4.3",
     "@babel/core": "^7.0.0",
@@ -49,7 +49,8 @@
     "@babel/helper-plugin-utils": "^7.0.0",
     "@babel/parser": "^7.0.0",
     "lodash.isplainobject": "^4.0.6",
+    "promise-synchronizer": "1.0.6",
     "resolve": "^1.10.0",
-    "svgo": "^0.7.2"
+    "svgo": "^1.2.2"
   }
 }
